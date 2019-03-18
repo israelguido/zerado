@@ -4,7 +4,7 @@
         <tab id="ayezamora" translate="label" sortOrder="10">
             <label>Aye Zamora Banner</label>
         </tab>
-        <section id="banner" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+        <section id="zamora" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
             <class>separator-top</class>
             <label>Configuration</label>
             <tab>ayezamora</tab>

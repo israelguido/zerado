@@ -1,3 +1,6 @@
-<div id="banner" style="margin-top: -25px;">
-    <img src="https://i.redd.it/kg7dlnm296t01.jpg" alt="Aye Zamora">
-</div>
+<?php if($this->getEnableBanner()) : ?>
+    <div id="banner" style="margin-top: -25px;">
+        <img src="<?php echo $this->getUrlBanner()?>" alt="Aye Zamora">
+    </div>
+<?php endif; ?>
+
