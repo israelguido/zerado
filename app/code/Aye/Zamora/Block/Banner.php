@@ -15,14 +15,9 @@ class Banner extends \Magento\Framework\View\Element\Template
 {
     var $_helperData;
 
-    /**
-     * Banner constructor.
-     * @param HelperData $_helperData
-     * @param \Magento\Framework\View\Element\Template\Context $context
-     */
     public function __construct(
-        HelperData $_helperData,
-        \Magento\Framework\View\Element\Template\Context $context
+        \Magento\Framework\View\Element\Template\Context $context,
+        HelperData $_helperData
     )
     {
         $this->_helperData = $_helperData;
