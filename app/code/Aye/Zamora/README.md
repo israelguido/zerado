@@ -6,6 +6,7 @@ How to install Aye Zamora Banner in your Magento2
 
 After enter code bellow:
 ```sh
+$ bin/magento setup:di:compile
 $ bin/magento cache:clean
 $ bin/magento setup:static-content-deploy -f
 ```
