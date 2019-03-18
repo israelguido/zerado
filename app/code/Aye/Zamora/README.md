@@ -10,4 +10,5 @@ $ bin/magento cache:clean
 $ bin/magento setup:static-content-deploy -f
 ```
 
-> Administration in [Store] [Configuration] [Aye Zamora Banner] [Configuration] 
+> Administration in:
+ - [Store] [Configuration] [Aye Zamora Banner] [Configuration] 
