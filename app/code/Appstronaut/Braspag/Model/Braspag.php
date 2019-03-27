@@ -26,6 +26,8 @@ class Braspag extends \Magento\Payment\Model\Method\Cc
      */
     public function capture(\Magento\Payment\Model\InfoInterface $payment, $amount)
     {
+        $teste = "So para ver a variavel de baixo";
+        $order = $payment->getOrder();
         try {
             //check if payment has been authorized
             if (is_null($payment->getParentTransactionId())) {

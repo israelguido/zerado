@@ -8,6 +8,22 @@
                 <active>1</active>
                 <cctypes>AE,VI,MC,DI</cctypes>
             </appstronaut_braspag>
+            <boleto>
+                <active>1</active>
+                <model>Appstronaut\Braspag\Model\Boleto</model>
+                <order_status>pending</order_status>
+                <title>Appstronaut Braspag Boleto</title>
+                <allowspecific>0</allowspecific>
+                <sort_order>1</sort_order>
+            </boleto>
+            <free>
+                <active>1</active>
+                <model>Magento\Payment\Model\Method\Free</model>
+                <order_status>pending</order_status>
+                <title>No Payment Information Required</title>
+                <allowspecific>0</allowspecific>
+                <sort_order>1</sort_order>
+            </free>
         </payment>
     </default>
 </config>

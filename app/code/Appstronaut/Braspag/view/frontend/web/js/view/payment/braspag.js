@@ -9,6 +9,10 @@ define([
             {
                 type: 'appstronaut_braspag',
                 component: 'Appstronaut_Braspag/js/view/payment/method-renderer/braspag'
+            },
+            {
+                type: 'boleto',
+                component: 'Appstronaut_Braspag/js/view/payment/method-renderer/boleto-method'
             }
         );
 
